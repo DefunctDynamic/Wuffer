@@ -4,7 +4,7 @@
 
 ## Description
 
-A Clojure Applications that makes some noise; it really does. 
+An Application that makes some noise; it really does.
 
 ## License
 
