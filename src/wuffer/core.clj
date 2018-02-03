@@ -107,3 +107,6 @@
 (comment
   (red-frik-361960894818811905)
   (kill red-frik-361960894818811905))
+
+(comment
+  (demo 10 (example dbrown :rand-walk)))
