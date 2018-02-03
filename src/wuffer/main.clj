@@ -14,7 +14,10 @@
   (let [shader-file (format "opt/shaders/%s.glsl" shader)]
     (logger/info {:message "initing shadertone..."
                   :shader-file shader-file})
-    (shader/start shader-file)
+    (shader/start shader-file
+                  :title "Wuffer"
+                  :width 1680
+                  :height 1050)
     (logger/info {:message "give it a second..."})
     (Thread/sleep 1000)
     (nrepl/start options)))
