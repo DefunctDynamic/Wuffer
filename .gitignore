@@ -34,5 +34,6 @@ pom.xml.asc
 /checkouts
 /.lein-*
 /.nrepl-*
+/*.log
 /out
 /output
