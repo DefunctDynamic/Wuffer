@@ -33,7 +33,6 @@
   []
   (logger/info {:message "museing up some noise"})
 
-  (wuffer/wsine)
   (wuffer/wmixer)
 
   (logger/info {:message "gig is over; wait around..."})
