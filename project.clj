@@ -5,5 +5,9 @@
             :url  "http://www.eclipse.org/legal/epl-v10.html"}
   :repl-options {:host "0.0.0.0"
                  :port 1337}
+  :main ^:skip-aot wuffer.main
   :dependencies [[org.clojure/clojure "1.8.0"]
-                 [overtone "0.10.3"]])
+                 [overtone "0.10.3"]
+                 [shadertone "0.2.5"]
+                 [org.clojure/tools.logging "0.4.0"]
+                 [org.clojure/tools.cli "0.3.5"]])
